@@ -6,7 +6,7 @@ Runge-Kutta
 Last week, I learnt Runge-Kutta.This week, I used the Runge-Kutta rule to conduct control simulations for the CSTR system  
 The following is the mathematical model of the CSTR system:  
 $$
-\frac{dc_a}{dt} = -k_{0}e^{\frac{-E_{0}}{RT}}c_A + \frac{Q_{f}c_{af} - Q_{f}c_A}{Ah} 
+\frac{dc_a}{dt} = -k_{0}e^{\frac{-E_{0}}{RT}}c_A + \frac{Q_{f}c_{af} - Q_{f}c_A}{Ah}
 $$
 
 $$
@@ -20,6 +20,7 @@ $$
 $$
 \frac{dh}{dt} = \frac{Q_{f} - Q}{A}
 $$
+  
 Some parameters involved and their normal values can be found in the following literature:  
 Pattern Matching in Historical Data. Michael  
 I have established a single closed-loop control system involving temperature for the above system, as shown in the following figure:  
