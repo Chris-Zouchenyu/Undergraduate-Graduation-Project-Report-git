@@ -27,4 +27,4 @@ Some parameters involved and their normal values can be found in the following l
 I have established a single closed-loop control system involving temperature for the above system, as shown in the following figure:  
 ![image](https://github.com/Chris-Zouchenyu/Undergraduate-Graduation-Project-Report-git/blob/main/Closed_loop_control_system.png)  
 When the reactor temperature changes, such as the set value from 402.35 to 390, the system responds as follows:  
-![image]()  
+![image](https://github.com/Chris-Zouchenyu/Undergraduate-Graduation-Project-Report-git/blob/main/response_result.png)  
