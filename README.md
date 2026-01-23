@@ -25,6 +25,6 @@ $$
 Some parameters involved and their normal values can be found in the following literature:  
 **Pattern Matching in Historical Data. Michael**  
 I have established a single closed-loop control system involving temperature for the above system, as shown in the following figure:  
-![image]()  
+![image](https://github.com/Chris-Zouchenyu/Undergraduate-Graduation-Project-Report-git/blob/main/Closed_loop_control_system.png)  
 When the reactor temperature changes, such as the set value from 402.35 to 390, the system responds as follows:  
 ![image]()  
