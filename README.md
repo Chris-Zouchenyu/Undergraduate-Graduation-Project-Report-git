@@ -5,6 +5,7 @@ Runge-Kutta
 # Week 2  
 Last week, I learnt Runge-Kutta.This week, I used the Runge-Kutta rule to conduct control simulations for the CSTR system  
 The following is the mathematical model of the CSTR system:  
+
 $$
 \frac{dc_a}{dt} = -k_{0}e^{\frac{-E_{0}}{RT}}c_A + \frac{Q_{f}c_{af} - Q_{f}c_A}{Ah}
 $$
