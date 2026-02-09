@@ -28,3 +28,23 @@ I have established a single closed-loop control system involving temperature for
 ![image](https://github.com/Chris-Zouchenyu/Undergraduate-Graduation-Project-Report-git/blob/main/Closed_loop_control_system.png)  
 When the reactor temperature changes, such as the set value from 402.35 to 390, the system responds as follows:  
 ![image](https://github.com/Chris-Zouchenyu/Undergraduate-Graduation-Project-Report-git/blob/main/response_result.png)  
+# Week 3  
+This week, I simulated the CSTH system, which is a system very similar to CSTR.This is the physical model of the CSTH system:  
+
+$$
+\frac{dV(x)}{dt} = f_{cw} + f_{hw} - f_{out}(x)
+$$
+
+$$
+\frac{dH}{dt} = W_{st} + h_{hw}\rho_{hw}f_{hw} + h_{cw}\rho_{cw}f_{cw} - h_{out}\rho_{out}f_{out}(x)
+$$
+
+$$
+f_{out}(x) = 10^{-4}(0.1013x\sqrt{55+x} + 0.0237)
+$$
+
+$$
+h_{out} = \frac{H}{V\rho_{out}}
+$$
+  
+I will upload simulation code for this system next week.  
