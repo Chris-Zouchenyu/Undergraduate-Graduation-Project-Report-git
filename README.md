@@ -29,7 +29,9 @@ I have established a single closed-loop control system involving temperature for
 When the reactor temperature changes, such as the set value from 402.35 to 390, the system responds as follows:  
 ![image](https://github.com/Chris-Zouchenyu/Undergraduate-Graduation-Project-Report-git/blob/main/response_result.png)  
 # Week 3  
-This week, I simulated the CSTH system, which is a system very similar to CSTR.This is the physical model of the CSTH system:  
+This week, I simulated the CSTH system, which is a system very similar to CSTR.  
+This system comes from: A continuous stirred tank heater simulation model with applications.Nina F. Thornhill.doi::10.1016/j.jprocont.2007.07.006  
+This is the physical model of the CSTH system:  
 
 $$
 \frac{dV(x)}{dt} = f_{cw} + f_{hw} - f_{out}(x)
