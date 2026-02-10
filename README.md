@@ -50,5 +50,5 @@ h_{out} = \frac{H}{V\rho_{out}}
 $$
   
 I handwritten the digital PI algorithm to perform PI control on the CSTH system. Under different PI parameters, the response of the system to changes in reactor temperature is shown in the following figure:  
-![image]()  
+![image](https://github.com/Chris-Zouchenyu/Undergraduate-Graduation-Project-Report-git/blob/main/CSTH_PID_parameters.png)  
 It can be seen that as the Kp parameter increases, the time it takes for the system to stabilize becomes shorter, but the cost is a significant increase in the system's oscillation.  
