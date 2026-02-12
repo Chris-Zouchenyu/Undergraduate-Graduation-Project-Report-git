@@ -25,9 +25,13 @@ $$
 Some parameters involved and their normal values can be found in the following literature:  
 **Pattern Matching in Historical Data. Michael**  
 I have established a single closed-loop control system involving temperature for the above system, as shown in the following figure:  
-![image](https://github.com/Chris-Zouchenyu/Undergraduate-Graduation-Project-Report-git/blob/main/Closed_loop_control_system.png)  
+<p align="center">
+  <img src="https://github.com/Chris-Zouchenyu/Undergraduate-Graduation-Project-Report-git/blob/main/Closed_loop_control_system.png" width="600">
+</p>
 When the reactor temperature changes, such as the set value from 402.35 to 390, the system responds as follows:  
-![image](https://github.com/Chris-Zouchenyu/Undergraduate-Graduation-Project-Report-git/blob/main/response_result.png)  
+<p align="center">
+  <img src="https://github.com/Chris-Zouchenyu/Undergraduate-Graduation-Project-Report-git/blob/main/response_result.png" width="600">
+</p>
 # Week 3  
 This week, I simulated the CSTH system, which is a system very similar to CSTR.  
 This system comes from: A continuous stirred tank heater simulation model with applications.Nina F. Thornhill.doi::10.1016/j.jprocont.2007.07.006  
@@ -52,3 +56,39 @@ $$
 I handwritten the digital PI algorithm to perform PI control on the CSTH system. Under different PI parameters, the response of the system to changes in reactor temperature is shown in the following figure:  
 ![image](https://github.com/Chris-Zouchenyu/Undergraduate-Graduation-Project-Report-git/blob/main/CSTH_PID_parameters.png)  
 It can be seen that as the Kp parameter increases, the time it takes for the system to stabilize becomes shorter, but the cost is a significant increase in the system's oscillation.  
+# Week 4  
+This week, I used the CSTH system simulation model I built to simulate the fault conditions.I generated simulation data using MATLAB and then classified the fault conditions using LSTM.  
+
+### LSTM model  
+
+The calculation process of the Long Short Term Memory Network (LSTM) at time step $t$ is as follows:
+
+$$
+f_t = \sigma(W_f \cdot [h_{t-1}, x_t] + b_f)
+$$
+
+$$
+i_t = \sigma(W_i \cdot [h_{t-1}, x_t] + b_i)
+$$
+
+$$
+\tilde{C}_t = \tanh(W_C \cdot [h_{t-1}, x_t] + b_C)
+$$
+
+$$
+C_t = f_t \odot C_{t-1} + i_t \odot \tilde{C}_t
+$$
+
+$$
+o_t = \sigma(W_o \cdot [h_{t-1}, x_t] + b_o)
+$$
+
+$$
+h_t = o_t \odot \tanh(C_t)
+$$
+
+**Symbol Description:**
+- $f_t, i_t, o_t$: They are respectively the forget gate, input gate, and output gate.
+- $C_t$: Unit state (long-term memory).
+- $h_t$: Hidden state (short-term memory).
+- $\odot$: Hadamard  
