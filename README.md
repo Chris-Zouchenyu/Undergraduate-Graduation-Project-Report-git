@@ -100,8 +100,9 @@ doi: https://doi.org/10.1016/j.psep.2022.11.062
   <img src="https://www.cnblogs.com/nickchen121/p/16470765.html#gallery-1" width="600">
 </p>
 The forecast results are shown in the following figure:  
-<img src="img/data_3_model_LSTM_900.png" width="200" />
-<img src="img/data_3_model_MLP_900.png" width="200" />
-<img src="img/data_3_model_BiLSTM_900.png" width="200" />
-<img src="img/data_3_model_Transformer_900.png" width="200" />
+<img src="images/data_3_model_LSTM_900.png" width="200" />
+<img src="imags/data_3_model_MLP_900.png" width="200" />
+<img src="imags/data_3_model_BiLSTM_900.png" width="200" />
+<img src="imags/data_3_model_Transformer_900.png" width="200" />
+
 The four images represent the results of using LSTM MLP BiLSTM Transformer to predict temperature in the case of data_3 (valve failure). The fault was introduced in step 890, and the temperature was predicted in step 900. The results show that LSTM and MLP perform poorly in response to temperature changes, with large errors and delays exceeding 1 second (step 10). The Transformer performs well with a delay of 1 second.  
