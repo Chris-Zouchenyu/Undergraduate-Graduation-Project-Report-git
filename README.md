@@ -97,7 +97,7 @@ This week, I used Transformer for real-time prediction of fault data. The struct
 References: A novel transformer-based multi-variable multi-step prediction method for chemical process fault prognosis.  
 doi: https://doi.org/10.1016/j.psep.2022.11.062  
 <p align="center">
-  <img src="https://www.cnblogs.com/nickchen121/p/16470765.html#gallery-1" width="600">
+  <img src="images/tf-整体框架.jpg" width="500">
 </p>
 The forecast results are shown in the following figure:  
 <p align="center">
@@ -111,5 +111,6 @@ The forecast results are shown in the following figure:
 <img src="images/连续搅拌加热罐_model_Transformer_从990步开始预测.gif" width="1000" />
 </p>
 The four images represent the results of using LSTM MLP BiLSTM Transformer to predict temperature in the case of data_3 (valve failure). The fault was introduced in step 890, and the temperature was predicted in step 900. The results show that LSTM and MLP perform poorly in response to temperature changes, with large errors and delays exceeding 1 second (step 10). The Transformer performs well with a delay of 1 second.  
+
 
 
