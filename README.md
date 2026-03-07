@@ -31,7 +31,8 @@ I have established a single closed-loop control system involving temperature for
 When the reactor temperature changes, such as the set value from 402.35 to 390, the system responds as follows:  
 <p align="center">
   <img src="https://github.com/Chris-Zouchenyu/Undergraduate-Graduation-Project-Report-git/blob/main/response_result.png" width="600">
-</p>
+</p>  
+
 # Week 3  
 This week, I simulated the CSTH system, which is a system very similar to CSTR.  
 This system comes from: A continuous stirred tank heater simulation model with applications.Nina F. Thornhill.doi::10.1016/j.jprocont.2007.07.006  
@@ -111,6 +112,7 @@ The forecast results are shown in the following figure:
 <img src="images/连续搅拌加热罐_model_Transformer_从990步开始预测.gif" width="1000" />
 </p>
 The four images represent the results of using LSTM MLP BiLSTM Transformer to predict temperature in the case of data_3 (valve failure). The fault was introduced in step 890, and the temperature was predicted in step 900. The results show that LSTM and MLP perform poorly in response to temperature changes, with large errors and delays exceeding 1 second (step 10). The Transformer performs well with a delay of 1 second.  
+
 
 
 
