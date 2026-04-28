@@ -121,7 +121,7 @@ I did three jobs this week.
 (2) Completed the writing of the entire software manual.  
 
 <p align="center">
-  <img src="images/image.png" width="1000">
+  <img src="images/mainwindow1.png" width="1000">
 </p>
 <p align="center">
   <img src="images/mainwindow2.png" width="1000">
