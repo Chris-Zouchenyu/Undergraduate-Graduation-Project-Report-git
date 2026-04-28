@@ -1,4 +1,6 @@
-### I am a graduate and currently preparing for my graduation project. I am focusing on fault diagnosis and machine learning. This is my weekly report
+### I am a graduate and currently preparing for my graduation project. I am focusing on fault diagnosis and machine learning. This is my weekly report  
+The technical roadmap of the entire project is shown in the figure.  
+
 # Week 1 
 Runge-Kutta
 
@@ -29,9 +31,6 @@ I have established a single closed-loop control system involving temperature for
   <img src="https://github.com/Chris-Zouchenyu/Undergraduate-Graduation-Project-Report-git/blob/main/Closed_loop_control_system.png" width="600">
 </p>
 When the reactor temperature changes, such as the set value from 402.35 to 390, the system responds as follows:  
-<p align="center">
-  <img src="https://github.com/Chris-Zouchenyu/Undergraduate-Graduation-Project-Report-git/blob/main/response_result.png" width="600">
-</p>  
 
 # Week 3  
 This week, I simulated the CSTH system, which is a system very similar to CSTR.  
