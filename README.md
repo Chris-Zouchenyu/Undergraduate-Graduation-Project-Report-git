@@ -1,5 +1,6 @@
 ### I am a graduate and currently preparing for my graduation project. I am focusing on fault diagnosis and machine learning. This is my weekly report  
 The technical roadmap of the entire project is shown in the figure.  
+***中国石油大学华东 邹晨宇 本科生毕业设计***
 <p align="center">
 <img src="images/技术路线图.png" width="800" />
 </p>
