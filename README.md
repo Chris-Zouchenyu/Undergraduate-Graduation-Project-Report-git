@@ -1,5 +1,8 @@
 ### I am a graduate and currently preparing for my graduation project. I am focusing on fault diagnosis and machine learning. This is my weekly report  
 The technical roadmap of the entire project is shown in the figure.  
+<p align="center">
+<img src="images/技术路线图.png" width="800" />
+</p>
 
 # Week 1 
 Runge-Kutta
@@ -108,7 +111,7 @@ The forecast results are shown in the following figure:
 <img src="images/data_3_model_Transformer_900.png" width="500" />
 </p>
 <p align="center">
-<img src="images/连续搅拌加热罐_model_Transformer_从990步开始预测.gif" width="1000" />
+<img src="images/连续搅拌加热罐_model_Transformer_从990步开始预测.gif" width="800" />
 </p>
 The four images represent the results of using LSTM MLP BiLSTM Transformer to predict temperature in the case of data_3 (valve failure). The fault was introduced in step 890, and the temperature was predicted in step 900. The results show that LSTM and MLP perform poorly in response to temperature changes, with large errors and delays exceeding 1 second (step 10). The Transformer performs well with a delay of 1 second.   
 
@@ -120,8 +123,8 @@ I did three jobs this week.
 (2) Completed the writing of the entire software manual.  
 
 <p align="center">
-  <img src="images/mainwindow1.png" width="1000">
+  <img src="images/mainwindow1.png" width="800">
 </p>
 <p align="center">
-  <img src="images/mainwindow2.png" width="1000">
+  <img src="images/mainwindow2.png" width="800">
 </p>
