@@ -115,7 +115,14 @@ The four images represent the results of using LSTM MLP BiLSTM Transformer to pr
 
 # Week 8  
 This week, I added a classification function, which allows the program to determine the category of faults and achieve fault diagnosis  
+# Week 9  
+I did three jobs this week.  
+(1) Completed the development of two software interfaces.  
+(2) Completed the writing of the entire software manual.  
 
-
-
-
+<p align="center">
+  <img src="images/image.png" width="1000">
+</p>
+<p align="center">
+  <img src="images/mainwindow2.png" width="1000">
+</p>
